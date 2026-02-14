@@ -651,6 +651,31 @@ function Section3() {
             — {LETTER.signature}
           </p>
 
+          <div className="s3-sig" style={{ marginTop: "3rem", display: "flex", justifyContent: "center" }}>
+  
+          <a href="#section4"
+        style={{
+      fontFamily: "'Jost', sans-serif",
+      fontSize: "0.72rem",
+      letterSpacing: "0.22em",
+      color: "rgba(0,0,0,0.3)",
+      textDecoration: "none",
+      textTransform: "lowercase",
+      display: "inline-flex",
+      alignItems: "center",
+      gap: "0.5rem",
+      transition: "color 300ms ease",
+    }}
+    onMouseEnter={e => e.currentTarget.style.color = "rgba(0,0,0,0.7)"}
+    onMouseLeave={e => e.currentTarget.style.color = "rgba(0,0,0,0.3)"}
+  >
+    keep reading
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+      <path d="M6 1v10M2 7l4 4 4-4" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  </a>
+</div>
+
         </div>
       </Card>
     </section>
